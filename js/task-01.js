@@ -1,21 +1,12 @@
 const categoryEl = document.getElementById("categories");
 console.log(`Number of categories: ${categoryEl.children.length}`);
 
-const itemTitle = document.querySelector("h2").textContent;
-console.log(`Category: ${itemTitle}`);
+const itemArrEl = document.querySelectorAll(".item ul");
+const itemTitle = document.querySelector("h2").textContent; 
 
-const itemArr = [];
-const itemArrEl = document.querySelector(".item");
-console.dir(`Elements: ${itemArrEl}`);
-// itemArrEl.forEach(el => {
-//     itemArr.push(
-//         `Elements: ${el.children.length}`
-//     )
-// });
+itemArrEl.forEach(el => {   
+    console.log(`Category: ${itemTitle}`);
+    console.log(`Elements: ${el.children.length}`);
+});
 
 
-// categories.forEach(function(category, index) {
-//     console.log(category);
-// });
-
-// console.dir(categories);
