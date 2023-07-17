@@ -12,6 +12,7 @@ const boxesEl = document.querySelector("#boxes");
 
 buttonCreate.addEventListener("click", handlerCreateClick);
 buttonDestroy.addEventListener("click", handlerDestroyClick);
+
 function handlerCreateClick() {
   const inputValue = Number(inputEl.value);
   boxesEl.innerHTML = "";
