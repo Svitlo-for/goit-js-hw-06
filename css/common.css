@@ -23,9 +23,11 @@ button {
   cursor: pointer;
 }
 
-galleryImg {
-  display: block;
-  justify-content: center;
-
+.gallery {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
   list-style: none;
 }
+
