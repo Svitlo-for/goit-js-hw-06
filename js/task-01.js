@@ -9,13 +9,6 @@ console.log(`Number of categories: ${categoryEl.children.length}`);
 });
 
 
-// const itemArrEl = document.querySelectorAll(".item ul");
-// console.dir(itemArrEl)
 
-// itemArrEl.forEach(el => {   
-//     const itemTitle = document.querySelector("h2").textContent; 
-//     console.log(`Category: ${itemTitle}`); // щось не вдалося тут правильно сформулювати
-//     console.log(`Elements: ${el.children.length}`);
-// });
 
 

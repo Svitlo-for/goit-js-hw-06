@@ -7,13 +7,14 @@ const ingredients = [
   'Condiments',
 ];
 const ulLi = document.getElementById("ingredients");
+const allLi = [];
 
 for (const ingredient of ingredients) {
   const liEl = document.createElement("li");
   liEl.textContent = ingredient;
-  ulLi.appendChild(liEl);
   liEl.classList.add("item");
-  console.log(liEl);
+  allLi.push(liEl);
 }
-// document.body.appendChild(ulLi);
+
+ulLi.append(...allLi);
 
